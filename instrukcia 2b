@@ -33,3 +33,52 @@ nie będziemy repetować<br>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+////////
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>tekst</title>
+
+
+</head>
+<body>
+
+<p>
+Poprzeczne lub ukośne zakończenia kresek głównych liter są nazywane <strong>szeryfami</strong>.
+</p>
+
+<p>
+Wystarczy zmienić krój pisma i <i>voila!</i> – dokument zyskuje całkiem inny <mark>charakter</mark>.
+</p>
+
+<p>
+Krój Scala Sans został zaprojektowany przez <u>Erica Gill</u>.
+</p>
+
+<p>
+Oznaczenie metra w Nowym Jorku zapisywane jest krojem <b>Helvetica</b>.
+</p>
+
+<p>
+Kroju można używać także w projektach <small>komercyjnych</small>.
+</p>
+
+<p>
+Tekst został opracowany o godzinie 12<sup>20</sup> przez <q>Nickiego</q>.
+</p>
+
+</body>
+</html>
