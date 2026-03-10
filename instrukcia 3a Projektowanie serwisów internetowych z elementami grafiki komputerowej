@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Formularz</title>
+
+</head>
+<body>
+
+<h3>Formularz konkursu "Podrasuj swoje buty!"</h3>
+
+<p>
+Chcesz zamienić swoje stare trampki na nową parę zaprojektowanych przez siebie butów?
+Napisz dlaczego twoje stare buty są już do wyrzucenia.
+</p>
+
+<form>
+
+<b>Podstawowe dane:</b><br><br>
+
+Imię i nazwisko:
+<input type="text"><br><br>
+
+E-mail:
+<input type="text"><br><br>
+
+Telefon:
+<input type="text" placeholder="123-456-789"><br><br>
+
+
+<b>Moje buty są TAKIE stare...</b><br>
+
+<textarea rows="5" cols="60" placeholder="nie więcej jak 200 znaków"></textarea>
+
+<br><br>
+
+<b>Zaprojektuj własne trampki</b><br><br>
+
+Kolor (wybierz jeden):<br>
+
+<input type="radio" name="kolor"> czerwony<br>
+<input type="radio" name="kolor"> niebieski<br>
+<input type="radio" name="kolor"> zielony<br>
+<input type="radio" name="kolor"> biały<br>
+<input type="radio" name="kolor"> czarny<br>
+
+<br>
+
+Opcje (możesz wybrać kilka):<br>
+
+<input type="checkbox"> metalowe logo<br>
+<input type="checkbox"> kolorowe sznurówki<br>
+<input type="checkbox"> świecące podeszwy<br>
+<input type="checkbox"> dodatkowe ocieplenie<br>
+
+<br>
+
+Rozmiar butów:
+<select>
+<option>36</option>
+<option>37</option>
+<option>38</option>
+<option>39</option>
+<option>40</option>
+<option>41</option>
+<option>42</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Podrasuj swoje buty!">
+<input type="reset" value="resetuj">
+
+</form>
+
+</body>
+</html>
