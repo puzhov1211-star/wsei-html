@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .rzeczownik {
+            color: red;
+            font-weight: bold;
+        }
+
+        .czasownik {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<p>
+<span class="rzeczownik">Apetyt</span>
+<span class="czasownik">rośnie</span>
+w miarę jedzenia
+</p>
+
+<p>
+<span class="rzeczownik">Cel</span>
+<span class="czasownik">uświęca</span>
+środki
+</p>
+
+</body>
+</html>
+
+
+////////////
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family:"Times New Roman"; background:#eee; }
+
+.main {
+    width:880px;
+    margin:20px auto;
+    border:2px solid black;
+    background:#f2f2f2;
+    padding:8px;
+}
+
+h1 {
+    text-align:center;
+    color:red;
+    letter-spacing:4px;
+    text-shadow:2px 2px 2px gray;
+}
+
+.uwaga {
+    border:2px solid green;
+    color:green;
+    margin:10px 0;
+    padding:4px;
+}
+
+.blue {
+    color:blue;
+    margin-left:25px;
+}
+
+.right {
+    text-align:right;
+    margin-top:5px;
+}
+
+.left {
+    margin-top:10px;
+}
+
+.lista {
+    list-style:none;
+    margin-top:5px;
+}
+
+.lista li::before {
+    content:"✔ ";
+    color:green;
+}
+
+.stopka {
+    border:2px solid purple;
+    margin-top:15px;
+    text-align:center;
+    color:purple;
+    font-size:12px;
+    padding:2px;
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+
+<h1>To jest nagłówek strony</h1>
+
+<div class="uwaga">
+<b>Uwaga!</b><br>
+To jest akapit, gdzie będą widniały ogłoszenia
+</div>
+
+<p class="blue">To jest specjalny akapit z wciętym tekstem</p>
+
+<p class="right">
+To jest zwykły akapit z bez wciętego tekstu, wyrównany do prawego marginesu
+</p>
+
+<div class="left">
+A. Punkt pierwszy<br>
+B. Punkt drugi
+</div>
+
+<p>Lista z własnym obrazkiem</p>
+
+<ul class="lista">
+<li>Punkt pierwszy</li>
+<li>Punkt drugi</li>
+<li>Punkt trzeci</li>
+</ul>
+
+<div class="stopka">
+To jest stopka strony, gdzie są umieszczone dodatkowe informacje np.
+<a href="#">mój kontakt</a>
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
