@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+img {
+  float: right;
+  width: 150px;
+  margin: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<p>
+<img src="https://picsum.photos/200">
+To jest przykładowy tekst. Obrazek jest po prawej stronie, a tekst go opływa.
+</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+?????????????????????????
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+span {
+  float: left;
+  background: red;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<p>
+<span>Ważne ogłoszenie</span>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.box {
+  float: left;
+  width: 30%;
+  margin: 1%;
+  background: lightyellow;
+  padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">Pierwszy akapit</div>
+<div class="box">Drugi akapit</div>
+<div class="box">Trzeci akapit</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.container {
+  width: 750px;
+}
+
+.menu {
+  float: left;
+  width: 200px;
+  background: orange;
+  height: 200px;
+}
+
+.tresc {
+  margin-left: 210px;
+  background: yellow;
+  height: 200px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="menu">Menu</div>
+  <div class="tresc">Treść</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col bg-secondary">Kolumna 1</div>
+    <div class="col bg-primary">Kolumna 2</div>
+    <div class="col bg-info">Kolumna 3</div>
+    <div class="col bg-warning">Kolumna 4</div>
+    <div class="col bg-danger">Kolumna 5</div>
+  </div>
+</div>
+
+</body>
+</html>
