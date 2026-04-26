@@ -1,0 +1,58 @@
+ /* прибираємо всі відступи */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* головний контейнер */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* банер */
+.header {
+  height: 120px;
+  border: 1px solid black;
+  background: lightgray;
+}
+
+/* меню */
+.menu {
+  height: 40px;
+  border: 1px solid black;
+  background: gray;
+}
+
+/* блок з колонками */
+.columns {
+  display: flex;
+  gap: 10px;
+  flex: 1; /* займає весь простір */
+  padding: 10px;
+}
+
+/* колонки */
+.col {
+  flex: 1;
+  border: 1px solid black;
+  background: #e0e0e0;
+}
+
+/* footer */
+.footer {
+  height: 100px;
+  border: 1px solid black;
+  background: gray;
+}
+
+.header { background: orange; }
+.menu { background: yellow; }
+.col { background: green; }
+.footer { background: yellow; }
