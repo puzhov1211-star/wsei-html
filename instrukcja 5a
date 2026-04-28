@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Ćwiczenia JavaScript</title>
+<style>
+.mojStyl {
+    font-family: Arial;
+    font-size: 16px;
+    color: red;
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h3>Paragrafy</h3>
+
+<p>Tekst w pierwszym paragrafie</p>
+<p>Tekst w drugim paragrafie</p>
+<p>Tekst w trzecim paragrafie</p>
+
+<button onclick="zmienTlo()">Zmień kolor tła</button> <button onclick="zmiana()">Zmiana</button>
+
+<h3>Efekt myszy</h3>
+
+<p id="tekst">Witaj na mojej stronie</p>
+
+<h3>Styl</h3>
+
+<p id="demo">Tekst</p>
+<button onclick="styl()">Dodaj styl</button>
+
+<script>
+function zmienTlo() {
+    var p = document.getElementsByTagName("p");
+    for (var i = 0; i < p.length; i++) {
+        p[i].style.backgroundColor = "green";
+    }
+}
+
+function zmiana() {
+    var p = document.getElementsByTagName("p");
+    p[0].innerHTML = "Podmieniony tekst w pierwszym akapicie";
+    p[2].style.color = "blue";
+}
+
+var t = document.getElementById("tekst");
+
+t.onmouseover = function() {
+    t.style.fontSize = "30px";
+    t.style.color = "red";
+}
+
+t.onmouseout = function() {
+    t.style.fontSize = "16px";
+    t.style.color = "black";
+}
+
+function styl() {
+    document.getElementById("demo").className = "mojStyl";
+}
+</script>
+
+</body>
+</html>
