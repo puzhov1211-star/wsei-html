@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Canvas</title>
+</head>
+<body>
+
+<canvas id="c" width="300" height="350" style="border:1px solid black;"></canvas>
+
+<script>
+var c = document.getElementById("c");
+var ctx = c.getContext("2d");
+
+ctx.fillStyle = "black";
+//głowa
+ctx.fillRect(125, 0, 50, 50);
+ctx.fillRect(105, 60, 90, 80);
+//szyja
+ctx.fillRect(145, 50, 10, 20);
+//ramione
+ctx.fillRect(75, 60, 30, 10); //lewe
+ctx.fillRect(195, 60, 30, 10); //prawa
+//nogi
+ctx.fillRect(105, 140, 10, 60);
+ctx.fillRect(185, 140, 10, 60);
+
+ctx.fillStyle = "red";
+ctx.fillRect(20, 230, 50, 100);
+
+ctx.fillStyle = "green";
+ctx.fillRect(60, 230, 50, 100);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(100, 230, 50, 100);
+</script>
+
+</body>
+</html>
