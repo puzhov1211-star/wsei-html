@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiletyLive — bilety na koncerty</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper header__row"><a class="logo" href="index.html">Bilety<span>Live</span></a>
+            <nav class="nav"><a class="" href="concerts.html">Koncerty</a><a class="" href="artists.html">Artyści</a><a
+                    class="" href="cities.html">Miasta</a><a class="" href="about.html">O nas</a><a class="cart-link"
+                    href="cart.html">🎟 Koszyk</a></nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero wrapper">
+            <p class="kicker">Najlepsze koncerty w Polsce</p>
+            <h1>MUZYKA<br><span>BEZ GRANIC</span></h1>
+            <p>Odkryj najciekawsze wydarzenia muzyczne w Polsce. Wybierz koncert, sprawdź krótkie informacje o artyście
+                i przejdź do koszyka.</p>
+            <form class="search-box" action="search.html"><input name="q"
+                    placeholder="Szukaj artysty, koncertu lub miasta..."><button>Szukaj</button></form>
+            <div class="tags"><a class="tag active" href="concerts.html">Wszystkie</a><a class="tag"
+                    href="concerts.html#rock">Rock</a><a class="tag" href="concerts.html#pop">Pop</a><a class="tag"
+                    href="concerts.html#rap">Rap</a><a class="tag" href="concerts.html#jazz">Jazz</a><a class="tag"
+                    href="concerts.html#klasyczna">Klasyczna</a></div>
+        </section>
+        <section class="section wrapper">
+            <div class="section-head">
+                <div>
+                    <p class="kicker">Wydarzenie tygodnia</p>
+                    <h2>Polecany koncert</h2>
+                </div><a class="button button--ghost" href="concerts.html">Zobacz wszystkie</a>
+            </div>
+            <div class="featured">
+                <div class="poster">🎸</div>
+                <div class="featured__body">
+                    <p class="kicker">Rock / Alternative</p>
+                    <h2>RIVERSIDE</h2>
+                    <p class="muted">Progressive rock z Warszawy</p>
+                    <div class="meta"><span>📅 14 czerwca 2025</span><span>🕗 20:00</span><span>📍 Tauron Arena,
+                            Kraków</span><span>🎟 od 149 zł</span></div>
+                    <p>Krótki, klimatyczny opis koncertu pozwala szybko zrozumieć, czy wydarzenie pasuje do gustu
+                        użytkownika.</p>
+                    <div class="actions"><a class="button" href="cart.html">Kup bilet</a><a class="button button--ghost"
+                            href="concerts/riverside.html">Szczegóły</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="section wrapper">
+            <div class="section-head">
+                <div>
+                    <p class="kicker">Nadchodzące wydarzenia</p>
+                    <h2>Koncerty</h2>
+                </div>
+            </div>
+            <div class="grid">
+                <article class="card"><a href="concerts/riverside.html">
+                        <div class="card__top">🎸</div>
+                        <div class="card__body">
+                            <p class="kicker">Rock / Alternative</p>
+                            <h3>RIVERSIDE</h3>
+                            <p class="muted">Progressive rock z Warszawy</p>
+                            <p>📅 14 czerwca 2025<br>📍 Tauron Arena, Kraków</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">149 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+                <article class="card"><a href="concerts/doda.html">
+                        <div class="card__top">🎤</div>
+                        <div class="card__body">
+                            <p class="kicker">Pop</p>
+                            <h3>DODA</h3>
+                            <p class="muted">Polska scena pop</p>
+                            <p>📅 22 czerwca 2025<br>📍 PGE Narodowy, Warszawa</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">199 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+                <article class="card"><a href="concerts/rammstein.html">
+                        <div class="card__top">🥁</div>
+                        <div class="card__body">
+                            <p class="kicker">Metal</p>
+                            <h3>RAMMSTEIN</h3>
+                            <p class="muted">Industrial metal z Berlina</p>
+                            <p>📅 5 lipca 2025<br>📍 Stadion Śląski, Chorzów</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">299 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+                <article class="card"><a href="concerts/jazz-night.html">
+                        <div class="card__top">🎹</div>
+                        <div class="card__body">
+                            <p class="kicker">Jazz</p>
+                            <h3>JAZZ NIGHT</h3>
+                            <p class="muted">Festiwal jazzowy Wrocław</p>
+                            <p>📅 12 lipca 2025<br>📍 Hala Stulecia, Wrocław</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">89 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+                <article class="card"><a href="concerts/club-night.html">
+                        <div class="card__top">🎧</div>
+                        <div class="card__body">
+                            <p class="kicker">Elektronika</p>
+                            <h3>CLUB NIGHT</h3>
+                            <p class="muted">Open Air Festival</p>
+                            <p>📅 19 lipca 2025<br>📍 Ergo Arena, Gdańsk</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">129 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+                <article class="card"><a href="concerts/quebonafide.html">
+                        <div class="card__top">🎵</div>
+                        <div class="card__body">
+                            <p class="kicker">Rap / Hip-Hop</p>
+                            <h3>QUEBONAFIDE</h3>
+                            <p class="muted">Rap / alternatywny hip-hop</p>
+                            <p>📅 2 sierpnia 2025<br>📍 Stadion Miejski, Poznań</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">119 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+                <article class="card"><a href="concerts/symfonika.html">
+                        <div class="card__top">🎻</div>
+                        <div class="card__body">
+                            <p class="kicker">Klasyczna</p>
+                            <h3>SYMFONIKA</h3>
+                            <p class="muted">Filharmonia Łódzka</p>
+                            <p>📅 16 sierpnia 2025<br>📍 Filharmonia Łódzka, Łódź</p>
+                        </div>
+                    </a>
+                    <div class="card__foot"><strong class="price">75 zł</strong><a class="button button--small"
+                            href="cart.html">Do koszyka</a></div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__grid">
+                <div><a class="logo" href="index.html">Bilety<span>Live</span></a>
+                    <p>Prosta strona z biletami na koncerty w Polsce. Projekt wykonany jako statyczna witryna HTML i
+                        CSS.</p>
+                </div>
+                <div>
+                    <h4>Platforma</h4><a href="concerts.html">Koncerty</a><a href="artists.html">Artyści</a><a
+                        href="cities.html">Miasta</a><a href="search.html">Wyszukiwarka</a>
+                </div>
+                <div>
+                    <h4>Pomoc</h4><a href="about.html#kontakt">Kontakt</a><a href="cart.html">Koszyk</a><a
+                        href="checkout.html">Płatność</a><a href="success.html">Potwierdzenie</a>
+                </div>
+                <div>
+                    <h4>Śledź nas</h4><a href="https://instagram.com">Instagram</a><a
+                        href="https://facebook.com">Facebook</a><a href="https://spotify.com">Spotify</a><a
+                        href="https://tiktok.com">TikTok</a>
+                </div>
+            </div>
+            <div class="copy"><span>© 2025 BiletyLive. Wszelkie prawa zastrzeżone.</span><span>Założyciel: Igor Pyżow ·
+                    puzhov12.11@gmail.com</span></div>
+        </div>
+    </footer>
+</body>
+
+</html>
